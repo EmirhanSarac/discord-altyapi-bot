@@ -1,76 +1,18 @@
 {
-  "//1": "Emirhan Saraç Glitch Bot Altyapı",
-  "//2": "Gerekli Komutlar Burdan Paylaşılıyor https://discord.gg/GpbPVJ7",
-  "//3": "İyi Kodlamalar",
-  "name": "emirhan-sarac-altyapı",
+  "name": "altyapıbot",
   "version": "0.0.1",
-  "description": "Altyapı Bot",
+  "description": "",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "test": "node bot.js"
   },
+  "author": "emirhansarac",
+  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "canvas": "^2.0.1",
-    "chalk": "^2.4.1",
-    "cleverbot.io": "^1.0.4",
-    "colors": "^1.3.2",
-    "common-tags": "^1.8.0",
-    "cpu-stat": "^2.0.1",
-    "ctx": "^0.3.0",
-    "discord.js": "^11.4.2",
-    "discord.js-commando": "^0.10.0",
-    "ejs": "^2.6.1",
-    "express": "^4.16.4",
-    "express-session": "^1.15.6",
-    "ffmpeg": "^0.0.4",
-    "ffmpeg-binaries": "^4.0.0",
-    "figlet": "^1.2.1",
-    "fs": "^0.0.2",
-    "helmet": "^3.14.0",
-    "jimp": "^0.5.4",
-    "level-session-store": "^2.1.0",
-    "marked": "^0.5.1",
-    "moment": "^2.22.2",
-    "moment-duration-format": "^2.2.2",
-    "moment-timezone": "^0.5.21",
-    "ms": "^2.1.1",
-    "node-opus": "^0.3.0",
-    "oauth": "^0.9.15",
-    "oauth2": "^0.0.1",
-    "os": "^0.1.1",
-    "passport": "^0.4.0",
-    "passport-discord": "^0.1.3",
-    "passport-oauth2": "^1.4.0",
-    "passport-strategy": "^1.0.0",
-    "path": "^0.12.7",
-    "quick.db": "^6.3.2",
-    "simple-youtube-api": "^5.0.2",
-    "snekfetch": "^4.0.4",
-    "speedtest-net": "^1.4.3",
-    "steam-provider": "^0.3.2",
-    "superagent": "^4.0.0-beta.5",
-    "url": "^0.11.0",
-    "useful-tools": "^0.0.21",
-    "weather-js": "^2.0.0",
-    "ytdl-core": "^0.26.1",
-    "dblapi.js": "^2.3.0",
-    "gifencoder": "^1.1.0",
-    "array-sort": "^1.0.0",
-    "node-superfetch": "^0.1.9",
-    "hastebin-gen": "^1.3.1",
-    "google-translate-api": "^2.3.0"
-  },
-  "engines": {
-    "node": "8.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+    "chalk": "^2.3.0",
+    "discord.js": "^11.3.2",
+    "moment": "^2.19.1",
+    "moment-duration-format": "^1.3.0",
+    "ms": "^2.0.0"
+  }
 }
