@@ -1,7 +1,6 @@
-# Altyapi-Bot
 Bot Altyapı Projesine Hoşgeldin!
 =================
-İlk Öncellikle Bu Dosyayı Remix Project Yapabilirsiniz. Bu Dosya Tamamen `Emirhan Saraç'a Aittir`. Bot Altyapısını Sizlerin Kullanması İçin Verdik Gerekli Modüller Yüklüdür..!
+ Bu Dosya Tamamen `Emirhan Saraç'a Aittir`. Bot Altyapısını Sizlerin Kullanması İçin Verdik Gerekli Modüller Yüklüdür..!
 
 [Resmi Discord Sunucumuz](https://discord.gg/MMGtps9)
 
