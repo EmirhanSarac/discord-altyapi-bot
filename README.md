@@ -8,7 +8,9 @@ Bot Altyapı Projesine Hoşgeldin!
 
 [Resmi İnstagram Hesabımız](https://www.instagram.com/emirhan_sarac54/)
 
+/**Zamanında Çalıntı Dediğiniz Kodları Şuan Clone Edip Kullanıyorsunuz**/
+
 -------------------
 
-`İyi Kodlamalar`
+`İyi Kodlamalar ay iyi düzeltmeler`
 
