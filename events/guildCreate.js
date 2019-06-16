@@ -5,7 +5,7 @@ const ayarlar = require('../ayarlar.json');
 var prefix = ayarlar.prefix;
 
 const girismesaj = [
-  '**Bot Sunucuya Eklendi
+  '**Bot Sunucuya Eklendi',
   '**Gnarge Bot** sunucunuzdaki insanlara kolaylıklar sağlar.',
   'Bot Her Türlü Komudu Vardır'
 ]
