@@ -4,4 +4,3 @@ module.exports = client => {
   client.on('message', reqEvent('message'));
   client.on('guildMemberAdd', reqEvent('guildMemberAdd'));
 };
-};
