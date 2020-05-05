@@ -5,7 +5,6 @@ require('moment-duration-format');
 
 module.exports.run = async (client, msg, args) => {
   
-  const db = require('quick.db');
   
  
   
