@@ -1,6 +1,5 @@
 const Discord = require('discord.js')
 const moment = require('moment')
-const db = require('quick.db')
 exports.run = async (client, message, args) => {
 
 	const lang = await db.fetch(`lang_${message.guild.id}`);
