@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const db = require('quick.db');
 const {stripIndents} = require('common-tags');
 
 exports.run = async (client, message, args) => {
