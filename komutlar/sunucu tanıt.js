@@ -1,7 +1,6 @@
 const Discord = require('discord.js')
 const fs = require('fs');
 const ms = require("ms")
-const db = require('quick.db')
 exports.run = async (client, message, args) => {
   	if (!message.guild) {
     const ozelmesajuyari = new Discord.RichEmbed()
