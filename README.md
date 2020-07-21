@@ -12,5 +12,5 @@ Discord.js v12 Bu Altyapıda Çalışmaz. Discord.js'yi Güncellemeyin!
 
 -------------------
 
-`İyi Kodlamalar ay iyi düzeltmeler`
+`İyi Kullanımlar!`
 
