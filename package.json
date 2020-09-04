@@ -55,7 +55,7 @@
     "jimp": "^0.6.1",
     "jsonfile": "^5.0.0",
     "level-session-store": "^2.2.0",
-    "marked": "^0.6.1",
+    "marked": "^1.1.1",
     "moment": "^2.24.0",
     "moment-duration-format": "^2.2.2",
     "moment-timezone": "^0.5.23",
