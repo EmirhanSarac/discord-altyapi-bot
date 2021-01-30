@@ -1,8 +1,8 @@
 Bot Altyapı Projesine Hoşgeldin!
 =================
- Bu Dosya Tamamen `Emirhan Saraç'a Aittir`. Bot Altyapısını Sizlerin Kullanması İçin Verdik Gerekli Modüller Yüklüdür..!
+ Bu Dosya (Geliştirilmiş) Tamamen `Emirhan Saraç'a Aittir`. Bot Altyapısını Sizlerin Kullanması İçin Verdik Gerekli Modüller Yüklüdür..!
 
-[Resmi Discord Sunucumuz](https://discord.gg/cv45tPg)
+[Resmi Discord Sunucumuz](https://discord.gg/Zwr4MqyKrC)
 
 [Resmi Youtube Kanalımız](https://www.youtube.com/channel/UCVRhrcoG6FOvHGKehYtvKHg?view_as=subscriber)
 
