@@ -27,6 +27,6 @@ exports.conf = {
 
 exports.help = {
   name: 'fb',
-  description: 'fb',
+  description: 'Profil fotoğrafınızı FB Çerçevesinin İçine Alır',
   usage: 'fb'
 };
