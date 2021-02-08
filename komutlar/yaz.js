@@ -8,10 +8,9 @@ if (mesaj.length < 1) return message.reply('Yazmam için herhangi bir şey yazma
 };
 
 exports.conf = {
-  enabled: true,
-  guildOnly: false,
   aliases: ['say', 'söyle'],
-  permLevel: 0
+  permLevel: 0,
+  kategori: 'Genel'
 };
 
 exports.help = {
