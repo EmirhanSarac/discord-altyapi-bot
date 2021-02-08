@@ -1,7 +1,7 @@
-Merhaba Arkadaşlar Bu Botun Altyapısı EMİRHAN SARAÇ 'a Aittir Sizlere Özel Bazı Komutlarıda Eklicem . Komutlar Emirhan Saraç ' a Aittir Fakat Kullanabilirsiniz.
+Merhaba Arkadaşlar Bu Altyapı 2018 Yılında Yapılmış 2021 Yılında İse Gerekli Düzeltimleri Yapılmıştır. Bu Altyapı Discord.js v12 Sürümünü Artık Desteklemektedir! Kolaylıkla Kullanabilirsiniz!
 
-Youtube Abone Ol : https://www.youtube.com/c/EmirhanSara%C3%A7
+Youtube Abone Ol : https://www.youtube.com/c/EmirhanSarac
 
-Discord Kod Paylaşım Sunucumuz : https://discord.gg/NG8qEX3
+Discord Kod Paylaşım Sunucumuz : https://discord.gg/Zwr4MqyKrC
 
 İyi Günler
