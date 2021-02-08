@@ -8,6 +8,13 @@ Merhaba Arkadaşlar Bu Altyapı 2018 Yılında Yapılmış 2021 Yılında İse G
 
 [Resmi İnstagram Hesabımız](https://www.instagram.com/emirhansarac06/)
 
+[Kayıt Botu Altyapısı](https://www.youtube.com/watch?v=0ciAxO0k35g)
+[Müzik Botu Altyapısı](https://youtu.be/tJIDkr2gtpQ)
+[Davet Botu Altyapısı](https://youtu.be/tJIDkr2gtpQ)
+[Captcha Botu Altyapısı](https://youtu.be/3UQMNEuLY64)
+[Slah Bot Altyapısı](https://youtu.be/ZKjBYsFnYls)
+[Yönetim Panelli Bot Altyapısı](https://github.com/EmirhanSarac/discord-bot-dashboard)
+
 Basit Hatalar ve Çözümleri!
 =================
 1 • Eğer hatanız;
