@@ -8,8 +8,6 @@ Bot Altyapı Projesine Hoşgeldin!
 
 [Resmi İnstagram Hesabımız](https://www.instagram.com/emirhansarac06/)
 
-Discord.js v12 Bu Altyapıda Çalışmaz. Discord.js'yi Güncellemeyin!
-
 -------------------
 
 `İyi Kullanımlar!`
