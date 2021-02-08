@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const ayarlar = require('./ayarlar.json');
-const chalk = require('chalk');
 const fs = require('fs');
 const moment = require('moment');
 require('./util/eventLoader')(client);
@@ -14,7 +13,7 @@ const log = message => {
 
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
-fs.readdir('./komutlar/', (err, files) => {
+fs.readdir("./komutlar/", (err, files) => {
   if (err) console.error(err);
   log(`${files.length} komut yüklenecek.`);
   files.forEach(f => {
@@ -26,7 +25,6 @@ fs.readdir('./komutlar/', (err, files) => {
     });
   });
 });
-
 client.reload = command => {
   return new Promise((resolve, reject) => {
     try {
@@ -41,12 +39,11 @@ client.reload = command => {
         client.aliases.set(alias, cmd.help.name);
       });
       resolve();
-    } catch (e){
+    } catch (e) {
       reject(e);
     }
   });
 };
-
 client.load = command => {
   return new Promise((resolve, reject) => {
     try {
@@ -56,12 +53,11 @@ client.load = command => {
         client.aliases.set(alias, cmd.help.name);
       });
       resolve();
-    } catch (e){
+    } catch (e) {
       reject(e);
     }
   });
 };
-
 client.unload = command => {
   return new Promise((resolve, reject) => {
     try {
@@ -72,40 +68,48 @@ client.unload = command => {
         if (cmd === command) client.aliases.delete(alias);
       });
       resolve();
-    } catch (e){
+    } catch (e) {
       reject(e);
     }
   });
 };
 
+client.on('ready', () => {
 
-client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'sa') {
-    msg.reply('Aleyküm selam,  hoş geldin ^^');
-  }
-});
+  // Oynuyor Kısmı
+  
+      var actvs = [
+        `${prefix}yardım ${client.guilds.cache.size} sunucuyu`,
+        `${prefix}yardım ${client.users.cache.size} Kullanıcıyı`, 
+        `${prefix}yardım`
+    ];
+    
+    client.user.setActivity(actvs[Math.floor(Math.random() * (actvs.length - 1) + 1)], { type: 'LISTENING' });
+    setInterval(() => {
+        client.user.setActivity(actvs[Math.floor(Math.random() * (actvs.length - 1) + 1)], { type: 'LISTENING'});
+    }, 3000);
+    
+  
+      console.log ('_________________________________________');
+      console.log (`Kullanıcı İsmi     : ${client.user.username}`);
+      console.log (`Sunucular          : ${client.guilds.cache.size}`);
+      console.log (`Kullanıcılar       : ${client.users.cache.size}`);
+      console.log (`Prefix             : ${ayarlar.prefix}`);
+      console.log (`Durum              : Bot Çevrimiçi!`);
+      console.log ('_________________________________________');
+    
+    });
+
 
 client.elevation = message => {
-  if(!message.guild) {
-	return; }
+  if (!message.guild) {
+    return;
+  }
   let permlvl = 0;
   if (message.member.hasPermission("BAN_MEMBERS")) permlvl = 2;
   if (message.member.hasPermission("ADMINISTRATOR")) permlvl = 3;
   if (message.author.id === ayarlar.sahip) permlvl = 4;
   return permlvl;
 };
-
-var regToken = /[\w\d]{24}\.[\w\d]{6}\.[\w\d-_]{27}/g;
-// client.on('debug', e => {
-//   console.log(chalk.bgBlue.green(e.replace(regToken, 'that was redacted')));
-// });
-
-client.on('warn', e => {
-  console.log(chalk.bgYellow(e.replace(regToken, 'that was redacted')));
-});
-
-client.on('error', e => {
-  console.log(chalk.bgRed(e.replace(regToken, 'that was redacted')));
-});
 
 client.login(ayarlar.token);
