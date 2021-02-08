@@ -8,9 +8,5 @@ Bot Altyapı Projesine Hoşgeldin!
 
 [Resmi İnstagram Hesabımız](https://www.instagram.com/emirhansarac06/)
 
-Basit Hatalar ve Çözümleri!
-`dd` ddd
-=================
-
 `İyi Kullanımlar!`
 
