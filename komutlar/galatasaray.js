@@ -20,14 +20,13 @@ exports.run = (client, message, args) => {
 }
 
 exports.conf = {
-  enabled: true,
-  guildOnly: false,
   aliases: ['gs', 'galatasaray'],
-  permLevel: 0
+  permLevel: 0,
+  kategori: 'Eğlence'
 };
 
 exports.help = {
   name: 'gs',
-  description: 'gs',
+  description: 'Profil fotoğrafınızı GS Çerçevesi İçine Alır',
   usage: 'gs'
 };
