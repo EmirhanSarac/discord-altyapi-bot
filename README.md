@@ -18,7 +18,7 @@ Diğer Altyapılar!
 
 [Captcha Botu Altyapısı](https://youtu.be/3UQMNEuLY64)
 
-[Slah Bot Altyapısı](https://youtu.be/ZKjBYsFnYls)
+[Slash Bot Altyapısı](https://youtu.be/ZKjBYsFnYls)
 
 [Yönetim Panelli Bot Altyapısı](https://github.com/EmirhanSarac/discord-bot-dashboard)
 
