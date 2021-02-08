@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const client = new Discord.Client({ disableMentions: 'everyone' });
 const ayarlar = require('./ayarlar.json');
 const fs = require('fs');
 const moment = require('moment');
