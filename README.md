@@ -1,6 +1,6 @@
 Bot Altyapı Projesine Hoşgeldin!
 =================
- Bu Dosya (Geliştirilmiş) Tamamen `Emirhan Saraç'a Aittir`. Bot Altyapısını Sizlerin Kullanması İçin Verdik Gerekli Modüller Yüklüdür..!
+Merhaba Arkadaşlar Bu Altyapı 2018 Yılında Yapılmış 2021 Yılında İse Gerekli Düzeltmeleri Yapılmıştır. Bu Altyapı Discord.js v12 Sürümünü Artık Desteklemektedir! Kolaylıkla Kullanabilirsiniz!
 
 [Resmi Discord Sunucumuz](https://discord.gg/Zwr4MqyKrC)
 
