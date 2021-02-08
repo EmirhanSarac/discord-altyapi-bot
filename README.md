@@ -14,7 +14,7 @@ Diğer Altyapılar!
 
 [Müzik Botu Altyapısı](https://youtu.be/tJIDkr2gtpQ)
 
-[Davet Botu Altyapısı](https://youtu.be/tJIDkr2gtpQ)
+[Davet Botu Altyapısı](https://www.youtube.com/watch?v=FsYR6egP0PU)
 
 [Captcha Botu Altyapısı](https://youtu.be/3UQMNEuLY64)
 
