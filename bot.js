@@ -87,7 +87,7 @@ client.on('ready', () => {
     client.user.setActivity(actvs[Math.floor(Math.random() * (actvs.length - 1) + 1)], { type: 'LISTENING' });
     setInterval(() => {
         client.user.setActivity(actvs[Math.floor(Math.random() * (actvs.length - 1) + 1)], { type: 'LISTENING'});
-    }, 3000);
+    }, 15000);
     
   
       console.log ('_________________________________________');
