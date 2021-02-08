@@ -20,14 +20,13 @@ exports.run = (client, message, args) => {
 }
 
 exports.conf = {
-  enabled: true,
-  guildOnly: false,
   aliases: ['bjk', 'beşiktaş'],
-  permLevel: 0
+  permLevel: 0,
+  kategori: 'Eğlence'
 };
 
 exports.help = {
   name: 'bjk',
-  description: 'bjk',
+  description: 'Profil fotoğrafınızı BJK Çerçevesinin İçine Alır',
   usage: 'bjk'
 };
