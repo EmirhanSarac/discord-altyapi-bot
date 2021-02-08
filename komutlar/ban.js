@@ -1,46 +1,41 @@
 const Discord = require('discord.js');
-const fs = require('fs');
+const ayarlar = require('../ayarlar.json')
 
-exports.run = (client, message, args) => {
-  
+exports.run = async (client, message, args) => {
+let guild = message.guild.id;   
+var prefix = ayarlar.prefix;
 
-    
-  if (!message.guild.members.get(client.user.id).hasPermission("BAN_MEMBERS")) return message.reply('Gerekli izin yok')
-  //if (!message.member.hasPermission("BAN_MEMBERS")) return message.reply(`Bu komutu kullanabilmek için **Üyeleri Yasakla** iznine sahip olmalısın!`);
+  if (!message.member.hasPermission("BAN_MEMBERS")) return message.channel.send(`Bu komutu kullanabilmek için **Üyeleri Yasakla** iznine sahip olmalısın!`);
   
-  let user = message.mentions.users.first();
+	let user = message.mentions.users.first() || message.client.users.cache.get(args[0]) || message.client.users.cache.find(m => m.username === args.slice(0).join(" ")) || message.author;
   let reason = args.slice(1).join(' ');
-  //let modLog = JSON.parse(fs.readFileSync("./jsonlar/mLog.json", "utf8"));
-  if (message.mentions.users.size < 1) return message.reply('Lütfen banlamak istediğiniz üyeyi etiketleyin');
-  if (reason.length < 1) return message.reply('Lütfen sebep giriniz');
-  if (user.id === message.author.id) return message.reply('Kendinimi banlayacaksın?');
-  /*if (user.highestRole.calculatedPosition > message.member.highestRole.calculatedPosition - 1) {
-			return message.reply(`Bu kişinin senin rollerinden/rolünden daha yüksek rolleri/rolü var.`);
-		}*/
-  //if (!message.guild.member(user).bannable) return message.channel.send(`Bu kişiyi sunucudan yasaklayamıyorum çünkü \`benden daha yüksek bir role sahip\` ya da \`bana gerekli yetkileri vermedin\`.`);
+  
+  if (!user) return message.channel.send(`Sunucudan yasaklamak istediğiniz kullanıcıyı etiketlemelisiniz; \`${prefix}ban @Gnarge Reklam\` `);
+  if (user.id === message.author.id) return message.channel.send('Kendini yasaklayamazsın.');
+  if (user.position > message.member.roles.highest.position) return message.channel.send(`Bu kullanıcının senin rollerinden/rolünden daha yüksek rolleri/rolü var.`);
+    if (!reason) reason = 'Belirtilmemiş.'
+    if (!user) return message.channel.send(`Etiketlediğin kullanıcıyı sunucuda bulamadım.`)
+    let member = message.guild.member(user)
+    if (!member) return message.channel.send(`Etiketlediğin kullanıcıyı sunucuda bulamadım.`)
 
-  
-   //if (!message.guild.member(user).bannable) return message.reply('Yetkilileri yasaklayamam!');
-  message.guild.ban(user, 2);
-  
-  const embed2 = new Discord.RichEmbed()
-  .setColor("RANDOM")
-  .setDescription(`Başarıyla banlandı`)
-  message.channel.send(embed2)
-    
+ if (!message.guild.member(user).bannable) return message.channel.send(`Bu kişiyi sunucudan yasaklayamıyorum çünkü \`benden daha yüksek bir role sahip\` ya da \`bana gerekli yetkileri vermedin\`.`);
+
+   if (!message.guild.member(user).bannable) return message.channel.send('Sunucudaki yetkilileri yasaklayamam!');
+
+  message.guild.members.ban(user.id)
+  message.channel.send(`<@${user.id}> **Adlı kullanıcı yasaklandı!** **Sebep: \`${reason}\`**`)
+
 };
 
 exports.conf = {
-  enabled: true,
-  guildOnly: true,
-  aliases: ['ban'],
-  permLevel: 3,
-    kategori: "moderasyon",
+  aliases: ['yasakla'],
+  permLevel: 0,
+  kategori: 'Moderasyon'
 };
 
 exports.help = {
-  name: 'yasakla',
-  description: 'İstediğiniz kişiyi sunucudan yasaklar.',
-  usage: 'yasakla <@kullanıcı> <sebep>',
- 
+  name: 'ban',
+  description: 'Belirttiğiniz kişiyi sunucudan yasaklar.',
+  usage: 'ban <@kullanıcı> <sebep>',
+
 };
