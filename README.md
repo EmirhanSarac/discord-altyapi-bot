@@ -13,7 +13,7 @@ Basit Hatalar ve Çözümleri!
 1 • Eğer hatanız;
 `Cannot find module 'blabla'`
 şeklindeyse modül kurmanız gerekmektedir.
-Modül kurmak için konsolu açıp npm i blabla yazınız.
+Modül kurmak için konsolu açıp `npm i blabla` yazınız.
 Glitch kullanıyorsanız basit kurulum yolu;
 1 • Package.json'a girin.
 2 • Yukarıdan Add Package basın.
