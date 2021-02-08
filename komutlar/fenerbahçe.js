@@ -20,10 +20,9 @@ exports.run = (client, message, args) => {
 }
 
 exports.conf = {
-  enabled: true,
-  guildOnly: false,
   aliases: ['fb', 'fenerbahçe'],
-  permLevel: 0
+  permLevel: 0,
+  kategori: 'Eğlence'
 };
 
 exports.help = {
