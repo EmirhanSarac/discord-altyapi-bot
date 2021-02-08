@@ -59,13 +59,13 @@ exports.run = async (client, message, args) => {
   }
      //SAHİP KOMUTU
   if(args[0] === "Sahip" || args[0] === "sahip" ) {
-    let Moderasyon = new Discord.MessageEmbed()
+    let Sahip = new Discord.MessageEmbed()
    .setAuthor('Moderasyon', message.author.displayAvatarURL())
    .setColor('#2667FF')
    .setFooter('Bu komutu kullanan kullanıcı ' + message.author.tag, message.author.displayAvatarURL())
    .setDescription(client.commands.filter(cmd => cmd.conf.kategori === 'Sahip').map(cmd => `:white_small_square: - **${prefix}${cmd.help.name}** ${cmd.help.description}`).join("\n "))
          .addField("» Linkler", ` [Davet Et](https://discord.com/oauth2/authorize?client_id=BOTUNİDSİ&scope=bot&permissions=2108157183)` + "** | **" + `[Destek Sunucusu](https://discord.gg/2vPdmYz)`  + "** | **" + `[Oy Ver](https://bit.ly/3980hKq)`  + "** | **" + `[Web Sitesi](https://gnarge.xyz/)  `, false)
-    return message.channel.send(Moderasyon)
+    return message.channel.send(Sahip)
               
         
                 return;
