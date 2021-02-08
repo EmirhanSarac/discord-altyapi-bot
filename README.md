@@ -19,13 +19,14 @@ Glitch kullanıyorsanız basit kurulum yolu;
 2 • Yukarıdan Add Package basın.
 3 • İnmesi gereken paket ismini yazın ve çıkana basın.
 başarılı! 
-----------------
+
 2 • Eğer hatanız;
 `ayarlar is not defined:`
 şeklindeyse hatayı aldığınız komutun en üstüne alttaki kodu girmeniz gerekli:
 `const ayarlar = require('../ayarlar.json')`
  yazın, sorun çözülecektir.
- ----------------
+ 
+
  3 • Eğer hatanız;
 `SyntaxError: Unexpected token };`
 Tarzında bir hata alıyorsanız, açıp kapatmadığınız veya kapatıp açmadığın bir paranteziniz vardır demek. Çözmek için hata oluşmadan önce en son eklediğiniz komuta bi' göz gezdirmek. Sorunu bulduğunuz zaman parantezleri düzelttiğinizde sorunda ortadan kalkar.
