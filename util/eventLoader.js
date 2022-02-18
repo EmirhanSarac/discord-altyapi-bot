@@ -1,4 +1,4 @@
-const reqEvent = (event) => require(`../events/${event}`);
+const emirhansarac = (event) => require(`../events/${event}`);
 module.exports = client => {
-  client.on('message', reqEvent('message'));
+  client.on('message', emirhansarac('message'));
 };
