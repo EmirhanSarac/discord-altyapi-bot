@@ -10,19 +10,17 @@ Merhaba Arkadaşlar Bu Altyapı 2018 Yılında Yapılmış 2021 Yılında İse G
 
 Diğer Altyapılar!
 =================
-[Ayarlanabilen Emoji ile Rol Verme Altyapısı](https://www.youtube.com/watch?v=c715ki9tV8g)
+[Ayarlanabilen Emoji ile Rol Verme Altyapısı](https://www.youtube.com/watch?v=AjNbw0wODH8)
 
-[Kayıt Botu Altyapısı](https://www.youtube.com/watch?v=0ciAxO0k35g)
+[Kayıt Botu Altyapısı](https://www.youtube.com/watch?v=55_OEZ73yd4)
 
-[Müzik Botu Altyapısı](https://youtu.be/tJIDkr2gtpQ)
+[Davet Botu Altyapısı](https://www.youtube.com/watch?v=drlPG8kgNdQ)
 
-[Davet Botu Altyapısı](https://www.youtube.com/watch?v=FsYR6egP0PU)
+[Captcha Botu Altyapısı](https://www.youtube.com/watch?v=DWxjCc6BuDA)
 
-[Captcha Botu Altyapısı](https://youtu.be/3UQMNEuLY64)
+[Slash Bot Altyapısı](https://www.youtube.com/watch?v=UZABvGw-oww)
 
-[Slash Bot Altyapısı](https://youtu.be/ZKjBYsFnYls)
-
-[Yönetim Panelli Bot Altyapısı](https://github.com/EmirhanSarac/discord-bot-dashboard)
+[Yönetim Panelli Bot Altyapısı](https://www.youtube.com/watch?v=HMT1UhQXQbA)
 
 Basit Hatalar ve Çözümleri!
 =================
