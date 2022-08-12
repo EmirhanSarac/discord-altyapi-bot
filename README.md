@@ -10,6 +10,8 @@ Merhaba Arkadaşlar Bu Altyapı 2018 Yılında Yapılmış 2021 Yılında İse G
 
 Diğer Altyapılar!
 =================
+[Müzik Bot Altyapısı](https://youtu.be/V4qOOnSPfwA)
+
 [Ayarlanabilen Emoji ile Rol Verme Altyapısı](https://www.youtube.com/watch?v=AjNbw0wODH8)
 
 [Kayıt Botu Altyapısı](https://www.youtube.com/watch?v=55_OEZ73yd4)
