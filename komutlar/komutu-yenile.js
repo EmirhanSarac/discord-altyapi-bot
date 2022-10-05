@@ -1,13 +1,16 @@
 const Discord = require("discord.js");
 
 exports.run = async (client, message, args) => {
-        let embed = new Discord.MessageEmbed()
+        let embed = new Discord.EmbedBuilder()
         .setTitle("Reload")
         .setDescription("Bu komutu sadece sahibim kullanabilir..")
         .setColor("#cdf785");
         if(message.author.id !== '683036205453148190') return message.channel.send(embed);
-
-        if(!args[0].toLowerCase()) return message.channel.send("Bir komut ismi gir!")
+        const filter = response => {
+          return item.answers.some(answer => answer.toLowerCase() === response.content.toLowerCase());
+        };
+        
+        if(!args[0]) return message.channel.send("Bir komut ismi gir!")
 
         let komutİsim = args[0].toLowerCase()
 
@@ -40,3 +43,11 @@ exports.help = {
     usage: "komut-yenile"
 };
 
+
+
+/*
+############################################################################
+#                           Discord Bot Altyapı v14                         #
+#               https://github.com/EmirhanSarac/discord-altyapi-bot         #
+############################################################################
+*/
