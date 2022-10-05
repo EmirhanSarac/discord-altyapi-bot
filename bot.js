@@ -26,7 +26,7 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 
-client.login(ayarlar.token || process.env.TOKEN)
+client.login(process.env.TOKEN || ayarlar.token)
 
 /*
 ############################################################################
