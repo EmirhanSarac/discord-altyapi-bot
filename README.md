@@ -1,8 +1,8 @@
 Bot Altyapı Projesine Hoşgeldin!
 =================
-Merhaba Arkadaşlar Bu Altyapı 2018 Yılında Yapılmış 2021 Yılında İse Gerekli Düzeltmeleri Yapılmıştır. Bu Altyapı Discord.js v12 Sürümünü Artık Desteklemektedir! Kolaylıkla Kullanabilirsiniz!
+Merhaba Arkadaşlar Bu Altyapı 2018 Yılında Yapılmış 5 Ekim 2022 Tarihinde İse Gerekli Düzeltmeleri Yapılmıştır. Bu Altyapı Discord.js v14 Sürümünü Artık Desteklemektedir! Kolaylıkla Kullanabilirsiniz!
 
-[Resmi Discord Sunucumuz](https://discord.gg/Zwr4MqyKrC)
+[Resmi Discord Sunucumuz](https://discord.gg/T2jXbtBjwj)
 
 [Resmi Youtube Kanalımız](https://www.youtube.com/channel/UCVRhrcoG6FOvHGKehYtvKHg?view_as=subscriber)
 
@@ -93,10 +93,13 @@ Bu hatanın nedeni: Bir gün içerisinde 1000 defa botunuz tokene bağlantı kur
 
 Etiketler: discord bot altyapı glitch
 discord bot altyapı github
-discord bot altyapı 2020
+discord bot altyapı
+discord bot altyapı v14
+discord bot altyapı v13
 discord bot altyapı v12
 discord bot altyapısı glitch
-discord bot altyapı 2021
+discord bot altyapı 2022
+discord bot altyapı 2023
 discord bot altyapı visual studio code
 discord bot altyapı nasıl yapılır
 discord altyapı
