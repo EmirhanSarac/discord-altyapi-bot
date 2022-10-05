@@ -34,20 +34,18 @@ function checkDays(date) {
 
 	}
 
-	
-			const yukleniyor = await msg.channel.send(`Sunucu Bilgileri Araştırılıyor`);
+	let owner = await guild.fetchOwner()
+	const channels = msg.guild.channels.cache;
+	const members = msg.guild.members.cache;
 
-let sunucu = new Discord.MessageEmbed()
-.setAuthor('Sunucu Bilgi', msg.guild.iconURL())
-.setThumbnail(msg.guild.iconURL())
-.addField('Sunucu Bilgileri', `Sunucu İsmi: **${guild.name}** \nSunucu ID: **${msg.guild.id}** \nSunucu Sahibi: **${guild.owner}** \nBulunduğu Bölge: **${region[msg.guild.region]}** \nKuruluş Tarihi: **${checkDays(msg.guild.createdAt)}** 
-`)
-.addField(`Üye Bilgileri `, `Toplam Üye: **${humanCount}** \nToplam Bot: **${botCount}** \nRol Sayısı: **${guild.roles.cache.size}**`)
-.addField(`Kanallar`, ` Yazı: **${msg.guild.channels.cache.filter(c => c.type === 'text').size}** \n Sesli: **${msg.guild.channels.cache.filter(c => c.type === 'voice').size}** \n Kategori: **${msg.guild.channels.cache.filter(c => c.type === 'category').size}**`)
-.setTimestamp()
-.setColor('#D2EE07')
-.setFooter('Sunucu Bilgi', msg.guild.iconURL())
-        return yukleniyor.edit('', sunucu);
+
+let sunucu = new Discord.EmbedBuilder()
+.setAuthor({ name: 'Sunucu Bilgi', iconURL: 'https://i.imgur.com/AfFp7pu.png', url: 'https://discord.gg/T2jXbtBjwj' })
+.setDescription(`**Sunucu Bilgileri** \nSunucu İsmi: **${guild.name}** \nSunucu ID: **${msg.guild.id}** \nSunucu Sahibi: **${owner}** \nKuruluş Tarihi: **${checkDays(msg.guild.createdAt)}** \nBoost Sayısı: **${msg.guild.premiumSubscriptionCount || '0'}** \n**Üye Bilgileri:** \nToplam Üye: **${humanCount}** \nToplam Bot: **${botCount}** \nRol Sayısı: **${guild.roles.cache.size}** `)
+.setColor('#D2EE07')  
+.setFooter({ text: `Bu komutu kullanan kullanıcı ${msg.author.tag}` , iconURL: `${msg.author.displayAvatarURL()}` });
+
+     msg.channel.send({embeds : [sunucu]});
 
 }; 
 
@@ -62,3 +60,10 @@ module.exports.help = {
     description: 'Sunucu hakkında bilgi verir.',
     usage: 'sunucu-bilgi'
 };
+
+/*
+############################################################################
+#                           Discord Bot Altyapı v14                         #
+#               https://github.com/EmirhanSarac/discord-altyapi-bot         #
+############################################################################
+*/
