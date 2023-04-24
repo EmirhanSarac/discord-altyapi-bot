@@ -1,0 +1,15 @@
+client.on("guildMemberAdd", member => {
+const embed = new Discord.RichEmbed()
+.setColor('RANDOM')
+.setTitle('Hoşgeldin')
+.setDescription('MESAJ)
+member.send(embed)
+})
+
+main dosyasına atılacak. Embed olarak atmamasını istiyorsanız:
+
+
+client.on('guildMemberAdd', member => {
+member.send(`mesaj`);Merhaba Sunucumuza Hoşgeldin.Kuralları okursan seviniriz Aksi takdirde Yanlış birşey yaparsan uyarı yada ban yemeni istemeyiz iyi eğlenceler.
+
+});Merhaba Sunucumuza Hoşgeldin.Kuralları okursan seviniriz Aksi takdirde Yanlış birşey yaparsan uyarı yada ban yemeni istemeyiz iyi eğlenceler.
